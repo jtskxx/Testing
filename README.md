@@ -17,7 +17,15 @@
 
 
 <br/>
+## 🌊 Summary  
 
+1. ⚙️ [NVIDIA GPU Requirements](#-nvidia-gpu-requirements)  
+2. 🛠️ [HiveOS Setup](#-flight-sheet-configuration)  
+3. 🖥️ **The Linux CLI Setup** *(Coming Soon)*  
+4. 🪟 **Windows Setup** *(Coming Soon)*  
+5. 🚀 [Recommended GPU Overclocks](#-recommended-gpu-overclocks)  
+
+<br/>
 
 
 ### **⚙️ NVIDIA GPU Requirements:**
