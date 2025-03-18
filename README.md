@@ -27,7 +27,7 @@
 <br/>
 
 
-### **⚙️ NVIDIA GPU Requirements:**
+### **⚙️NVIDIA GPU Requirements:**
 > [!NOTE]
 > To update your NVIDIA GPU driver on HiveOS, please run the following command:
 ```sh
@@ -41,7 +41,7 @@ nvidia-driver-update
 > Ensure each of your workers has a **unique worker name**; duplicating worker names is not permitted.
 
 
-## ✈️ Flight Sheet Configuration
+## ✈️Flight Sheet Configuration
 
 ### Solo Mining➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 ### PPLNS Mining➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz
@@ -80,33 +80,6 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
 ```
-
-### 🌀AMD GPU mining:🌀 ###
-> [!WARNING]
-For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
-```
-amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y
-```
-### Extra Config Arguments:
-```
-GPU:8
-"idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
-```
-> [!NOTE]
-> AMD Miner is still under heavy development and is currently powered by ZLUDA.
->
-> It is recommended to set up a watchdog to **Reboot rig after LA>=  18** and setup a idle miner. :spider_web:
-> 
-> The miner should use **1 CPU thread** per working **GPU** to manage the **CUDA -> ROCM translation.**
-> 
-> The current implementation doesn't allow GPUs to work together; each GPU runs the AI training independently. If you're using older GPUs or have low it/s, the PPLNS pool is recommended.
-> 
-> :stopwatch: Each GPU takes about 2 minutes to warm up before starting mining
-> 
-> Please check the dedicated AMD section on the Discord to see the ongoing development.
-> 
-> Download your preferred AMD miner from the release section :) 
-
 ## 💦Recommended GPU overclocks💦
 
 3000 series ```nvtool --setcoreoffset 200 --setclocks 1500 --setmem 5001 --setmemoffset 2000```  
