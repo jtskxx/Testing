@@ -1,5 +1,12 @@
 # 🌊 JETSKI QUBIC POOL 🌊
 
+<div align="center">
+<h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px> </picture> Join us to achieve true AI power powered by useful miners! <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px> </picture></h3>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
+</div>
+
 ## 📖 Table of Contents
 
 1. [Join Our Community](#-join-our-community)
@@ -13,8 +20,6 @@
 ---
 
 ## 🌍 Join Our Community
-
-
 
 📊 **SOLO Dashboard:** [qubic.jetskipool.ai](https://qubic.jetskipool.ai/)\
 📊 **PPLNS Dashboard:** [pplns.jetskipool.ai](https://pplns.jetskipool.ai/)
@@ -40,10 +45,8 @@ nvidia-driver-update
 
 ### 🔗 **Download the Latest Miner:**
 
-- [**Solo Mining**](https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz)
-- [**PPLNS Mining**](https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz)
-
-
+- **Solo Mining:** `https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz`
+- **PPLNS Mining:** `https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz`
 
 📝 **Worker Name Format:** `%WAL%-%WORKER_NAME%`
 
