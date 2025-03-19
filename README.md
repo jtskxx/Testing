@@ -27,7 +27,7 @@
 
 <br/>
 
-### **⚙️ NVIDIA GPU Requirements:**
+### **⚙️ NVIDIA GPU Requirements**
 > [!NOTE]
 > To update your NVIDIA GPU driver on HiveOS, please run the following command:
 ```sh
@@ -107,16 +107,57 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 |  Setting 		|  Description 	|
 |---	|---	|
-|  command 	|  The command/program to execute.	|
-|  arguments 	|  The arguments that should be passed to the command/program.	|
+|  command 	|  The command/program to execute	|
+|  arguments 	|  The arguments that should be passed to the command/program	|
 
 <br>
 
 # <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux-CLI Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
 
-x
-x
-x
+### **To start mining on a Linux distribution, follow these steps:**
+
+### **1️⃣ Download the Miner**
+Go to https://download.jetskipool.ai/ to get the appropriate miner:
+- Solo Mining: qjetski-3.1.3-Linux
+- PPLNS Mining: qjetski.PPLNS-3.1.3-Linux.tar.gz
+
+<br>
+
+### **2️⃣ Extract the Miner (For PPLNS)**
+If you're using PPLNS mining, extract the .tar.gz file:
+```
+tar -xvzf qjetski.PPLNS-3.1.3-Linux.tar.gz
+cd qjetski.PPLNS-3.1.3-Linux
+```
+
+<br>
+
+### **3️⃣ Configure the Miner***
+Once downloaded, open the JSON configuration file and update it with your settings.
+
+*Example configuration file:*
+
+![image](https://github.com/user-attachments/assets/3b9794e3-509c-4081-9be9-f7da93ce88bf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 x
 x
