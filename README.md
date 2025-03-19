@@ -23,11 +23,11 @@
 1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
 3. 🌊 **Linux-CLI Setup** *(Coming Soon)*  
-4. ⛵️ **Windows Setup** *(Coming Soon)*  
+4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px">**Windows Setup** *(Coming Soon)*  
 5. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
-
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsc3E2aTg3eDl2MTJmdm95Zm9tcWM3b29wMHY0aGliOWxvZWhrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q5XeuwY8cjHJ413qqf/giphy.gif" width="18px">
 ### **⚙️ NVIDIA GPU Requirements:**
 > [!NOTE]
 > To update your NVIDIA GPU driver on HiveOS, please run the following command:
