@@ -21,8 +21,8 @@
 
 1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
-3. 🌊 **Linux-CLI Setup** *(Coming Soon)*  
-4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px">**Windows Setup** *(Coming Soon)*  
+3. 🌊 [Linux-CLI Setup](#-linux-cli-setup-)
+4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> **Windows Setup** *(Coming Soon)*  
 5. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
@@ -88,14 +88,20 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 <br>
 
-## 🧪 Advanced Settings:
+## 🧪 Advanced Settings
 ### Idle Time Feature
 > [!NOTE]
 > During the Qubic idling phase, you can run another program or miner.
+> 
+> The example below is for mining on the Xelis pool (Xelski) https://xelskipool.xyz/
+> 
+> Launch a flight sheet before with the correct miner and ensure its version matches the one in idle config
+> 
+> More examples are available on the pool Discord
 
 **Extra Config Arguments Example:**
 ```json
-"idleSettings":{"preCommand":"ping","preCommandArguments":"-c 2 google.com","command":"ping","arguments":"google.com","postCommand":"ping","postCommandArguments":"-c 2 google.com"}
+"idleSettings":{"command":"/hive/miners/rigel/1.19.4/rigel","arguments":"-a xelishashv2 -o stratum+tcp://fr.xelskipool.xyz:9191 -u XELWLT -w %WORKER_NAME%"}
 ```
 <br>
 
@@ -103,7 +109,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 |---	|---	|
 |  command 	|  The command/program to execute.	|
 |  arguments 	|  The arguments that should be passed to the command/program.	|
-|  preCommand 	|  A command/program to start once the idling period begins.	|
-|  preCommandArguments 	|  The arguments that should be passed to the preCommand/program.	|
-|  postCommand 	|  A command/program to start once the idling period stops.	|
-|  postCommandArguments 	|  The arguments that should be passed to the postCommand/program.	|
+
+<br>
+
+# <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux-CLI Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
