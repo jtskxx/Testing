@@ -20,7 +20,7 @@
 
 ## 🏝️ Summary 🏝️
 
-1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8Fnvidia-gpu-requirements)  
+1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8Fflight-sheet-configuration)  
 3. 🌊 **Linux-CLI Setup** *(Coming Soon)*  
 4. ⛵️ **Windows Setup** *(Coming Soon)*  
