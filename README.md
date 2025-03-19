@@ -27,7 +27,7 @@
 5. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsc3E2aTg3eDl2MTJmdm95Zm9tcWM3b29wMHY0aGliOWxvZWhrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q5XeuwY8cjHJ413qqf/giphy.gif" width="18px">
+
 ### **⚙️ NVIDIA GPU Requirements:**
 > [!NOTE]
 > To update your NVIDIA GPU driver on HiveOS, please run the following command:
