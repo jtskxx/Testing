@@ -18,7 +18,7 @@
 
 <br/>
 
-## 🏝️ Summary  
+## 🏝️ Summary 🏝️
 
 1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8Fnvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8Fflight-sheet-configuration)  
