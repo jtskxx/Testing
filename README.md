@@ -117,14 +117,14 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 ### **To start mining on a Linux distribution, follow these steps:**
 
 ### **1️⃣ Download the Miner**
-Go to https://download.jetskipool.ai/ to get the appropriate miner:
-- Solo Mining: qjetski-3.1.3-Linux
-- PPLNS Mining: qjetski.PPLNS-3.1.3-Linux.tar.gz
+Go to https://download.jetskipool.ai/ to get the appropriate miner
+- Solo Mining: `qjetski-3.1.3-Linux`
+- PPLNS Mining: `qjetski.PPLNS-3.1.3-Linux.tar.gz`
 
 <br>
 
 ### **2️⃣ Extract the Miner (For PPLNS)**
-If you're using PPLNS mining, extract the .tar.gz file:
+If you're using PPLNS mining, extract the .tar.gz file
 ```
 tar -xvzf qjetski.PPLNS-3.1.3-Linux.tar.gz
 cd qjetski.PPLNS-3.1.3-Linux
@@ -133,7 +133,7 @@ cd qjetski.PPLNS-3.1.3-Linux
 <br>
 
 ### **3️⃣ Configure the Miner**
-Once downloaded, open the JSON configuration file and update it with your settings.
+Once downloaded, open the JSON configuration file and update it with your settings
 
 *Example configuration file:*
 
