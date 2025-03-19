@@ -38,7 +38,7 @@ nvidia-driver-update
 
 
 > [!IMPORTANT]
-> Ensure each of your workers has a **unique worker name**; duplicating worker names is not permitted.
+> Ensure each of your workers has a **unique worker name**; **duplicate worker names is not allowed!**
 
 <br/>
 
