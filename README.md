@@ -60,12 +60,12 @@ nvidia-driver-update
 
 ##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<b>Extra Config Arguments</b></p>
 
-### ☀️GPU mining:☀️ ###
+### ☀️GPU mining☀️ ###
 ```
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 
-### 🏖️CPU mining:🏖️ ###
+### 🏖️CPU mining🏖️ ###
 > [!NOTE]
 > "amountOfThreads":0 = All available Threads -1
 >
