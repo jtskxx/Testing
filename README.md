@@ -18,18 +18,17 @@
 
 <br/>
 
-## 🌊 Summary  
+## 🏝️ Summary  
 
-1. ⚙️ [NVIDIA GPU Requirements](#nvidia-gpu-requirements)  
-2. 🛠️ [HiveOS Setup](#%EF%B8%8Fflight-sheet-configuration)  
-3. 🖥️ **The Linux CLI Setup** *(Coming Soon)*  
-4. 🪟 **Windows Setup** *(Coming Soon)*  
-5. 🚀 [Recommended GPU Overclocks](#recommended-gpu-overclocks)   
+1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8Fnvidia-gpu-requirements)  
+2. 🌴 [HiveOS Setup](#%EF%B8%8Fflight-sheet-configuration)  
+3. 🌊 **Linux-CLI Setup** *(Coming Soon)*  
+4. ⛵️ **Windows Setup** *(Coming Soon)*  
+5. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
 
-
-### **⚙️NVIDIA GPU Requirements:**
+### **⚙️ NVIDIA GPU Requirements:**
 > [!NOTE]
 > To update your NVIDIA GPU driver on HiveOS, please run the following command:
 ```sh
@@ -43,7 +42,7 @@ nvidia-driver-update
 > Ensure each of your workers has a **unique worker name**; duplicating worker names is not permitted.
 
 
-## ✈️Flight Sheet Configuration
+## ✈️ Flight Sheet Configuration
 
 ### Solo Mining➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 ### PPLNS Mining➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz
