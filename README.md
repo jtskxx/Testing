@@ -29,7 +29,7 @@
 
 ### **⚙️ NVIDIA GPU Requirements**
 > [!NOTE]
-> To update your NVIDIA GPU driver on HiveOS, please run the following command:
+> To update your NVIDIA GPU driver on HiveOS, please run the following command
 ```sh
 nvidia-driver-update
 ```
