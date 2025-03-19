@@ -132,31 +132,29 @@ cd qjetski.PPLNS-3.1.3-Linux
 
 <br>
 
-### **3️⃣ Configure the Miner***
+### **3️⃣ Configure the Miner**
 Once downloaded, open the JSON configuration file and update it with your settings.
 
 *Example configuration file:*
 
 ![image](https://github.com/user-attachments/assets/3b9794e3-509c-4081-9be9-f7da93ce88bf)
 
+- Replace `WALLET-HERE` with your Qubic wallet address
+- Replace `ALIAS-HERE` with your worker's name
 
+> [!NOTE]
+>If `"alias": null,` the miner will automatically use your device's hostname *(useful for easy deployment)*
 
+**Enable/disable CPU/GPU mining:**
+- `"cpu": true` ➡️ Enable CPU mining
+- `"gpu": false` ➡️ Disable GPU mining
 
+> [!IMPORTANT]
+> Do not modify the access token or pool address, as they are linked to the mining pool
 
+### **✅ You're now ready to start mining! 🚀💰**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 x
