@@ -118,13 +118,13 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 ### **1️⃣ Download the Miner**
 Go to https://download.jetskipool.ai/ to get the appropriate miner
-- Solo Mining: `qjetski-3.1.3-Linux`
-- PPLNS Mining: `qjetski.PPLNS-3.1.3-Linux.tar.gz`
+- **Solo Mining:** `qjetski-3.1.3-Linux`
+- **PPLNS Mining:** `qjetski.PPLNS-3.1.3-Linux.tar.gz`
 
 <br>
 
 ### **2️⃣ Extract the Miner (For PPLNS)**
-If you're using PPLNS mining, extract the .tar.gz file
+If you're using **PPLNS mining**, extract the .tar.gz file
 ```
 tar -xvzf qjetski.PPLNS-3.1.3-Linux.tar.gz
 cd qjetski.PPLNS-3.1.3-Linux
@@ -157,7 +157,52 @@ Once downloaded, open the JSON configuration file and update it with your settin
 <br>
 
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
-x
-x
-x
 
+### **To start mining on a Windows distribution, follow these steps:**
+
+### **1️⃣ Download the Miner**
+Go to https://download.jetskipool.ai/ to get the appropriate miner
+- **Solo Mining:** `qjetski-3.1.1-windows.zip`
+- **PPLNS Mining:** `qjetski-PPLNS-3.1.1-windows.zip`
+
+<br>
+
+### **2️⃣ Extract the Miner (For PPLNS)**
+If you're using **PPLNS mining**, extract the .tar.gz file
+
+- The **default Windows unzipper or WinRAR** can be used to decompress the file
+- Once extracted, navigate to the folder where the miner is located
+
+<br>
+
+### **3️⃣ Configure the Miner**
+Once downloaded, open the `start.bat` file and update it with your settings
+
+*Example start.bat:*
+
+![Screenshot 2025-03-19 at 4 23 22 AM](https://github.com/user-attachments/assets/23f650f8-f11c-4a14-bb2c-e455cb0ebbe5)
+
+- Enter your wallet address and worker name using the format `WALLET-WORKERNAME`
+- Enable or disable CPU mining with `true` or `false`
+- Enable or disable GPU mining with `true` or `false`
+- Set your Idle mining configuration
+
+> [!NOTE]
+> To set up an idle miner, move your idle miner file to the qjetski folder
+
+- **Idle Command:** Enter the name of the program *(e.g., rigel.exe)*
+- **Idle Arguments:** Enter the program’s launch arguments
+
+> [!IMPORTANT]
+>
+> **Idle mining can be skipped** – press `Enter` twice when prompted for the idle command & argument. Your device will stay idle during the switching phase
+> 
+> Do not modify `start.bat`, as it is linked to the mining pool
+>
+> You can run the **miner executable directly** to reuse the last-used settings
+>
+> Update your `WALLET-WORKERNAME` in `alias.txt` if needed
+>
+> Change ``CPU/GPU & Idle config`` by relaunching start.bat
+
+### **✅ You're now ready to start mining! 🚀💰**
